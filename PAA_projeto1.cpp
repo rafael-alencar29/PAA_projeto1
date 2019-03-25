@@ -63,11 +63,15 @@ int main(){
     int size = 0,i=0;
     char temp;
 
+    //leitura dos inteiros em uma linha,
+    //para ate encontrar um '\n'
+
     while (temp != '\n') {
       scanf("%d%c",&arr[i],&temp);
       i++;
       size++;
     }
+    //o armazenamento eh feito em um vetor
     /*
     while (cin >> n) {
       arr[i++] = n;
